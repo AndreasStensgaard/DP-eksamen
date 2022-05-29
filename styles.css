@@ -1,0 +1,390 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+
+body{
+    background-color: black;
+    color: white;
+}
+header{
+    background-color: #0ba27e;
+    color: white;
+    height: 100px;
+    position: sticky;
+    top: 0;
+}
+
+.flex-container{
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+  }
+
+.flex-container > div{
+  width: 20%;
+  display: flex;
+}
+
+  .flex-container > div:first-child > a > img{
+    height: 90px;
+    margin: 5px;
+}
+
+.flex-container > div:nth-child(2){
+  gap: 10%;
+  width: 60%;
+}
+.flex-container > div:nth-child(3){
+  justify-content: space-between;
+}
+
+.flex-container > div > a{
+  line-height: 70px;
+    font-size: 20px;
+    color: white;
+    line-height: 100px;
+    text-decoration: none;
+    width: max-content;
+
+}
+
+.flex-container > div > a > img{
+height: 45px;
+align-items: center;
+margin-top: 30px;
+}
+
+.mobilenav{
+  display: none;
+}
+
+#hero{
+  color: #0ba27e;
+  text-align: center;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: larger;
+  display: flex;
+  justify-content: space-between;
+  width: 90%;
+  margin: 50px auto;
+}
+
+
+.container{
+  display: flex;
+  flex-wrap: nowrap;
+  color: white;
+  justify-content: space-between;
+  width: 90%;
+  margin: 0 auto;
+  flex-wrap: wrap;
+}  
+
+.container > a{
+  color: black;
+}
+
+.container > a > div > h2{
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 30px;
+  margin: 2%;
+}
+
+.container > a > div > p{
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 20px;
+  margin: 2%;
+}
+
+.container >a:first-child > div{
+  background-image: url('images/omos.jpg');
+  height: 300px;
+  width: 520px;
+}
+
+.container >a:nth-child(2) > div{
+  background-image: url('images/metalnews.jpg');
+  height: 300px;
+  width: 520px;
+}
+
+.container > div > a > img{
+  height: 300px;
+  width: 520px;
+}
+
+#dpnews{
+  color: #0ba27e;
+}
+
+#dpnews > h2{
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 40px;;
+  margin-left: 5%;
+}
+
+hr.solid {
+  border-top: 3px solid;
+  color: #0ba27e;
+  margin: 5%;
+  margin-bottom: 0%;
+}
+
+.news{
+  display: flex;
+  flex-wrap: nowrap;
+  color: white;
+  width: 90%;
+  margin: 50px auto;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 50px;
+  padding-bottom: 100px;
+}
+
+.news > div{
+  color: white;
+}
+
+.news > div > h2{
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 30px;;
+}
+
+.news > div > p{
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 20px;
+  margin-bottom: 2%;
+}
+.news > div > a > img{
+  height: 300px;
+  width: 520px;
+}
+
+#konkurrence{
+  width: 100%;
+}
+
+#konkurrence > section{
+  width: 90%;
+  display: flex;
+}
+
+#konkurrence > section > div{
+  width: 45%;
+}
+
+.dphell{
+  display: flex;
+  flex-wrap: nowrap;
+  color: white;
+  justify-content: space-between;
+  width: 100%;
+  margin: 0 auto;
+  flex-wrap: wrap;
+  padding-top: 100px;
+}  
+
+.dphell > div{
+  color: white;
+}
+
+.dphell > div > h2{
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 30px;
+  color: #0ba27e;
+}
+
+.dphell > div > h3{
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 60px;
+}
+
+.dphell > div > p{
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 20px;
+  line-height: 1.4;
+}
+
+.dphell > div > p > a{
+  color:#0ba27e;
+}
+
+.dphell > div > img{
+  height: 300px;
+  width: 520px;
+}
+
+.lineup{
+  display: flex;
+  flex-wrap: nowrap;
+  color: #0ba27e;
+  width: 90%;
+  margin: auto;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding-top: 100px;
+}
+
+.lineup > h2{
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 30px;
+  padding-bottom: 100px;
+}
+
+
+.lineup > img{
+  height: 600px;
+  width: 1000px;
+  padding-bottom: 100px;
+}
+
+#os{
+  width: 100%;
+}
+
+#os > section{
+  width: 90%;
+  display: flex;
+}
+
+#os > section > div{
+  width: 45%;
+}
+
+.omos{
+  display: flex;
+  flex-wrap: nowrap;
+  color: white;
+  width: 90%;
+  margin: 50px auto;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 50px;
+}
+
+.omos > div{
+  color: white;
+
+}
+
+.omos > div > h2{
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 30px;
+  color: #0ba27e;
+  margin-bottom: 20px;
+}
+
+.omos > div > p{
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 20px;  
+}
+
+/*Fundet på Dansk Pilsners hjemmeside*/
+.praktisk{
+  line-height: 49px;
+}
+
+.omos > div > img{
+  height: 400px;
+  width: 520px;
+}
+
+/*Ideen var at kunne få en maps ind så man kunne se de nærmeste steder, hvor man kan købe dp, men havde ikke tid til at finde ud af det*/
+.hvor{
+  display: flex;
+  color: #0ba27e;
+  width: 90%;
+  margin: auto;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding-top: 100px;
+}
+
+.hvor > h2{
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 25px;
+  padding-bottom: 100px;
+}
+
+.hvor > img{
+  height: 600px;
+  width: 1000px;
+  padding-bottom: 100px;
+}
+
+footer{
+background-color: #0ba27e;
+  color: white;
+  height: 150px;
+  text-align:center;
+  justify-content: space-between;
+}
+
+.footer > div > p{
+    font-size: 20px;
+    color: white;
+    line-height: 50px;
+    text-decoration: none;
+}
+
+.footer > a{
+  font-size: 20px;
+    color: white;
+    line-height: 50px;
+    text-decoration: none;
+}
+
+/*Responsive*/
+@media screen and (max-width:768px){
+  .flex-container{
+  display: none;
+  }
+  .mobilenav{
+    display: flex;
+    height: 100%;
+    justify-content: space-around;
+    align-items: center;
+  }
+  .mobilenav > a > img{
+    height: 100px;
+  }
+  .mobilenav > a:nth-child(2) > img{
+    height: 50%;
+  }
+  #hero{
+    width: 100%;
+  }
+  #hero > img{
+    display: block;
+    width: 20%;
+    height: 100%;
+    align-self: center;
+  }
+  #hero > div{
+    width: 60%;
+    height: 100%;
+  }
+  .container{
+    flex-direction: column;
+    width: 100%;
+    margin: 0;
+  }
+  .container > a:first-child > .left, .container > a:nth-child(2) > .right{
+    width: 100%;
+  }
+  .news{
+    width: 100%;
+    margin: 0;
+  }
+  .news > div > a > img{
+    width: 100%;
+  }
+}
+
+
+
+
